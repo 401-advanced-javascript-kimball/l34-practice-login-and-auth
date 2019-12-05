@@ -1,24 +1,15 @@
-# l34-practice-login-and-auth
+# LAB - 34 practice-login-and-auth
+
+## Login and Auth
+
+### Author: Jonathan Kimball
+
+### Links and Resources
 
 * [submission PR](https://github.com/401-advanced-javascript-kimball/l34-practice-login-and-auth/pull/1)
 * [travis](https://travis-ci.com/401-advanced-javascript-kimball/l34-practice-login-and-auth)
-
-# LAB - 
-
-## Project Name
-
-### Author: Student/Group Name
-
-### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
 * [back-end](http://xyz.com) (when applicable)
 * [front-end](http://xyz.com) (when applicable)
-
-#### Documentation
-* [api docs](http://xyz.com) (API servers)
-* [jsdoc](http://xyz.com) (Server assignments)
-* [styleguide](http://xyz.com) (React assignments)
 
 ### Modules
 #### `modulename.js`
@@ -131,4 +122,88 @@ You have been provided, in the `starter-code/todo` folder, a working To Do list 
 Refer to the the [lab submission instructions](../../../reference/submission-instructions/labs/README.md) for the complete lab submission process and expectations
 
 ----------
+
+remote: Create a pull request for 'submission' on GitHub by visiting:
+remote:      https://github.com/401-advanced-javascript-kimball/l34-practice-login-and-auth/pull/new/submission
+remote:
+To github.com:401-advanced-javascript-kimball/l34-practice-login-and-auth.git
+ * [new branch]      submission -> submission
+Submission Link:
+https://github.com/401-advanced-javascript-kimball/l34-practice-login-and-auth/blob/submission/README.md
+
+
+
+----------
+
+$ http post https://api-js401.herokuapp.com/signup email=jonathan@codefellows.com userna
+me=jonathan-admin password=password role=editor
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Connection: keep-alive
+Content-Length: 245
+Content-Type: text/html; charset=utf-8
+Date: Wed, 04 Dec 2019 17:50:33 GMT
+Etag: W/"f5-Ebzprpm1ksGFMuQ8xBNmg+/jsjY"
+Server: Cowboy
+Set-Cookie: auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkZTdmMWU5MWRiODkwMDAxNzdjMDA1NSIsImNhcGFiaWxpdGllcyI6WyJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIl0sInR5cGUiOiJ1c2VyIiwiaWF0IjoxNTc1NDgxODMzLCJleHAiOjE1NzU0ODIxMzN9.agNOTPada2PNdnErIvMuYvmF3a5X7IxPWj_Dp7Zp584; Path=/
+Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkZTdmMWU5MWRiODkwMDAxNzdjMDA1NSIsImNhcGFiaWxpdGllcyI6WyJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIl0sInR5cGUiOiJ1c2VyIiwiaWF0IjoxNTc1NDgxODMzLCJleHAiOjE1NzU0ODIxMzN9.agNOTPada2PNdnErIvMuYvmF3a5X7IxPWj_Dp7Zp584
+Via: 1.1 vegur
+X-Powered-By: Express
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkZTdmMWU5MWRiODkwMDAxNzdjMDA1NSIsImNhcGFiaWxpdGllcyI6WyJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIl0sInR5cGUiOiJ1c2VyIiwiaWF0IjoxNTc1NDgxODMzLCJleHAiOjE1NzU0ODIxMzN9.agNOTPada2PNdnErIvMuYvmF3a5X7IxPWj_Dp7Zp584
+
+ Wed Dec 04 - 09:50:32 ~/.../codefellows/401/seattle-javascript-401d32.wiki[master]
+$ http post https://api-js401.herokuapp.com/signup email=jonathan@codefellows.com userna
+me=jonathan-editor password=password role=editor
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Connection: keep-alive
+Content-Length: 245
+Content-Type: text/html; charset=utf-8
+Date: Wed, 04 Dec 2019 17:51:07 GMT
+Etag: W/"f5-sdDttj2883DcB5YbpM1gdfdjDQ8"
+Server: Cowboy
+Set-Cookie: auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkZTdmMjBiMWRiODkwMDAxNzdjMDA1OCIsImNhcGFiaWxpdGllcyI6WyJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIl0sInR5cGUiOiJ1c2VyIiwiaWF0IjoxNTc1NDgxODY3LCJleHAiOjE1NzU0ODIxNjd9.joL-KALGzJNZexxDewf953YYVql8ltfe8zRYEOLejXg; Path=/
+Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkZTdmMjBiMWRiODkwMDAxNzdjMDA1OCIsImNhcGFiaWxpdGllcyI6WyJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIl0sInR5cGUiOiJ1c2VyIiwiaWF0IjoxNTc1NDgxODY3LCJleHAiOjE1NzU0ODIxNjd9.joL-KALGzJNZexxDewf953YYVql8ltfe8zRYEOLejXg
+Via: 1.1 vegur
+X-Powered-By: Express
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkZTdmMjBiMWRiODkwMDAxNzdjMDA1OCIsImNhcGFiaWxpdGllcyI6WyJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIl0sInR5cGUiOiJ1c2VyIiwiaWF0IjoxNTc1NDgxODY3LCJleHAiOjE1NzU0ODIxNjd9.joL-KALGzJNZexxDewf953YYVql8ltfe8zRYEOLejXg
+
+ Wed Dec 04 - 09:51:06 ~/.../codefellows/401/seattle-javascript-401d32.wiki[master]
+$ http post https://api-js401.herokuapp.com/signup email=jonathan@codefellows.com username=jonathan-user password=password role=user
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Connection: keep-alive
+Content-Length: 221
+Content-Type: text/html; charset=utf-8
+Date: Wed, 04 Dec 2019 17:51:27 GMT
+Etag: W/"dd-hBdpwoCm+ZxUavBCXlpIqh4FBoM"
+Server: Cowboy
+Set-Cookie: auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkZTdmMjFlMWRiODkwMDAxNzdjMDA1OSIsImNhcGFiaWxpdGllcyI6WyJyZWFkIl0sInR5cGUiOiJ1c2VyIiwiaWF0IjoxNTc1NDgxODg3LCJleHAiOjE1NzU0ODIxODd9.Q4vJOZO-cV6E0bIMNE-MGgWwFe0eI2wFDwd_fMMLO1Q; Path=/
+Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkZTdmMjFlMWRiODkwMDAxNzdjMDA1OSIsImNhcGFiaWxpdGllcyI6WyJyZWFkIl0sInR5cGUiOiJ1c2VyIiwiaWF0IjoxNTc1NDgxODg3LCJleHAiOjE1NzU0ODIxODd9.Q4vJOZO-cV6E0bIMNE-MGgWwFe0eI2wFDwd_fMMLO1Q
+Via: 1.1 vegur
+X-Powered-By: Express
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkZTdmMjFlMWRiODkwMDAxNzdjMDA1OSIsImNhcGFiaWxpdGllcyI6WyJyZWFkIl0sInR5cGUiOiJ1c2VyIiwiaWF0IjoxNTc1NDgxODg3LCJleHAiOjE1NzU0ODIxODd9.Q4vJOZO-cV6E0bIMNE-MGgWwFe0eI2wFDwd_fMMLO1Q
+
+ Wed Dec 04 - 09:51:26 ~/.../codefellows/401/seattle-javascript-401d32.wiki[master]
+$ http post https://api-js401.herokuapp.com/signup email=jonathan@codefellows.com username=jonathan-real-admin password=password role=admin
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Connection: keep-alive
+Content-Length: 257
+Content-Type: text/html; charset=utf-8
+Date: Wed, 04 Dec 2019 17:51:51 GMT
+Etag: W/"101-I/yxOuyrPTEG02v8YewWthJHvbs"
+Server: Cowboy
+Set-Cookie: auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkZTdmMjM2MWRiODkwMDAxNzdjMDA1YiIsImNhcGFiaWxpdGllcyI6WyJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIiwiZGVsZXRlIl0sInR5cGUiOiJ1c2VyIiwiaWF0IjoxNTc1NDgxOTExLCJleHAiOjE1NzU0ODIyMTF9.mQMH9MYMnsOc8LTN8PSzlIFG8wQo1T97rV7pXaENhmc; Path=/
+Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkZTdmMjM2MWRiODkwMDAxNzdjMDA1YiIsImNhcGFiaWxpdGllcyI6WyJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIiwiZGVsZXRlIl0sInR5cGUiOiJ1c2VyIiwiaWF0IjoxNTc1NDgxOTExLCJleHAiOjE1NzU0ODIyMTF9.mQMH9MYMnsOc8LTN8PSzlIFG8wQo1T97rV7pXaENhmc
+Via: 1.1 vegur
+X-Powered-By: Express
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkZTdmMjM2MWRiODkwMDAxNzdjMDA1YiIsImNhcGFiaWxpdGllcyI6WyJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIiwiZGVsZXRlIl0sInR5cGUiOiJ1c2VyIiwiaWF0IjoxNTc1NDgxOTExLCJleHAiOjE1NzU0ODIyMTF9.mQMH9MYMnsOc8LTN8PSzlIFG8wQo1T97rV7pXaENhmc
+
+ Wed Dec 04 - 09:51:50 ~/.../codefellows/401/seattle-javascript-401d32.wiki[master]
+$
 
