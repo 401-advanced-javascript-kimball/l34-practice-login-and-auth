@@ -122,7 +122,7 @@ You have been provided, in the `starter-code/todo` folder, a working To Do list 
 Refer to the the [lab submission instructions](../../../reference/submission-instructions/labs/README.md) for the complete lab submission process and expectations
 
 ----------
-
+<!-- 
 remote: Create a pull request for 'submission' on GitHub by visiting:
 remote:      https://github.com/401-advanced-javascript-kimball/l34-practice-login-and-auth/pull/new/submission
 remote:
@@ -206,4 +206,4 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkZTdmMjM2MWRiODkwMDAxNzdjMDA1YiI
 
  Wed Dec 04 - 09:51:50 ~/.../codefellows/401/seattle-javascript-401d32.wiki[master]
 $
-
+ -->
